@@ -8,14 +8,35 @@ html,
 body
 {
     height: 100vh;
-    font-family: 'Poppins';
-    background: rgb(197, 197, 197);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .webgl
-{ /*ddddddddddddddd*/
-    position: fixed;
+{ 
+    position: absolute;
     top: 0;
     left: 0;
     outline: none;
+    mix-blend-mode: exclusion;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+section{
+    height: 100vh;
 }
